@@ -307,7 +307,7 @@ body {
 	display: inline-block;
 	vertical-align: middle; 
 	margin-right: 10px;
-	width:24px;
+	width: 24px;
 	height: 19px;
 	background: url("../images/plane.png");
 }
@@ -322,7 +322,7 @@ body {
 	display: inline-block;
 	vertical-align: middle; 
 	margin-right: 15px;
-	width:20px;
+	width: 20px;
 	height: 20px;
 	background: url("../images/pencil.png");
 }
@@ -370,9 +370,7 @@ body {
 .featured__h3 {
 	font-size: 16px;
 	margin: 0;
-	margin-bottom: 25px;
-	
-	
+	margin-bottom: 25px;	
 }
 
 .star:before {
@@ -426,6 +424,6 @@ body {
 }
 
 .footerspan {
-	color: #cfd0d1;
+	color: #aaacaf;
 
 }
