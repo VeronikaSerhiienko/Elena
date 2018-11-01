@@ -91,10 +91,11 @@ body {
 	margin: 45px auto 80px;
 }
 
-.titles__second:after {
-	margin: 5px 0 0 85px;
-	display: block;
-	float: left;
+.titles__second:after,
+.titles__second:before {
+	position: relative;
+	bottom: 6px;
+	display: inline-block;
 	content: "";
 	width: 85px;
 	height: 2px;
@@ -102,13 +103,11 @@ body {
 }
 
 .titles__second:before {
-	margin: 5px 85px 0 0;
-	display: block;
-	float: right;
-	content: "";
-	width: 85px;
-	height: 2px;
-	border-bottom: 2px solid rgba(255, 255, 255,0.5);
+	right: 33px;
+}
+
+.titles__second:after {
+	left: 33px;
 }
 
 .button__header {	
