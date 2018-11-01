@@ -160,6 +160,7 @@ body {
 	width: 43px;
 	display: block;	
 }
+
 .user:before {
 	background: url(../images/user-group-copy.png) no-repeat;
 }
@@ -172,13 +173,16 @@ body {
 	background: url(../images/headset.png) no-repeat;
 }
 
-.clients__item__h2:after {
-	margin: 20px auto 0;
+.heading_underline:after {
 	display: block;
 	content: "";
-	width: 170px;
 	height: 2px;
-	border-bottom: 2px solid rgba(226, 227, 228,0.8);
+	background: linear-gradient(to right, #e3e4e5, transparent);
+}
+
+.clients__item__h2:after {
+	margin: 20px auto 0;	
+	width: 170px;	
 }
 
 .clients__item__p {
@@ -220,12 +224,9 @@ body {
 
 .template__item__h3:after,
 .contacts__item__h3:after {
-	margin-top: 20px ;
-	display: block;
-	content: "";
+	margin-top: 20px ;	
 	width: 230px;
-	height: 2px;
-	border-bottom: 2px solid rgba(226, 227, 228,0.8);
+	
 }
 
 .template__item__p,
@@ -277,12 +278,8 @@ body {
 }
 
 .supported__item__h3:after {
-	margin-top: 20px;
-	display: block;
-	content: "";
+	margin-top: 20px;	
 	width: 250px;
-	height: 2px;
-	border-bottom: 2px solid rgba(226, 227, 228,0.8);
 }
 
 .buttongrey {
@@ -309,13 +306,9 @@ body {
 	margin-right: 30px;
 }
 
-.option__item__h3:after{
+.option__item__h3:after {
 	margin-top: 20px ;
-	display: block;
-	content: "";
 	width: 160px;
-	height: 2px;
-	border-bottom: 2px solid rgba(226, 227, 228,0.8);
 }
 
 .checkthisout {
@@ -375,12 +368,8 @@ body {
 }
 
 .themeforest__item__h3:after {
-	margin-top: 20px ;
-	display: block;
-	content: "";
-	width: 290px;
-	height: 2px;
-	border-bottom: 2px solid rgba(226, 227, 228,0.8);
+	margin-top: 20px;	
+	width: 290px;	
 }
 
 /*section 8*/
@@ -410,12 +399,8 @@ body {
 	background: url("../images/star.png");
 }
 
-.featured__h3:after{
-	display: block;
-	content: "";
-	width: 280px;
-	height: 2px;
-	border-bottom :2px solid rgba(225, 225, 225,0.8);
+.featured__h3:after {	
+	width: 280px;	
 	margin: 20px auto 0;
 }
 
